@@ -1,0 +1,1039 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_001",
+      "email": "admin@earnpro.in",
+      "passwordHash": "5a6f8686ced5604bec9c6a599debdb6c:d1359e1663d55e2a1d965c6d37bf56c85ef71002d1bcb8d3e6f24f4d19a8a4814a4bc3be3ff81d8025c5d5a832451f3c13eb0e82da40e15742eda846052dea65",
+      "fullName": "System Administrator",
+      "phone": "+91 98765 00000",
+      "role": "admin",
+      "status": "active",
+      "emailVerified": true,
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "referralCode": "ADMINPRO",
+      "createdAt": "2026-01-01T10:00:00Z",
+      "lastLoginAt": "2026-10-28T15:13:29.351Z",
+      "dailyStreak": 12,
+      "lastCheckinDate": "2026-10-28"
+    },
+    {
+      "id": "usr_rahul_002",
+      "email": "rahul.sharma@example.com",
+      "passwordHash": "ab0ad0e608e4af382329ca00215ac6e1:d98959e6ce3d696fd7cafb149f625574242da5ca14f1b7d5f52007112e62d70dd387e336cd3b62cbb338fe0a8f538304d740cc47e6b5769fc74961a99fab6ce5",
+      "fullName": "Rahul Sharma",
+      "phone": "+91 98111 22334",
+      "role": "user",
+      "status": "active",
+      "emailVerified": true,
+      "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "referralCode": "RAHUL77",
+      "referredBy": "ADMINPRO",
+      "createdAt": "2026-02-15T08:30:00Z",
+      "lastLoginAt": "2026-10-28T15:13:43.426Z",
+      "dailyStreak": 3,
+      "lastCheckinDate": "2026-10-27"
+    },
+    {
+      "email": "test_earner_1793200738187@example.com",
+      "passwordHash": "hash123",
+      "fullName": "Test Earner",
+      "role": "user",
+      "status": "active",
+      "emailVerified": true,
+      "referralCode": "T38187",
+      "id": "usr_7e7668d3",
+      "createdAt": "2026-10-28T15:18:58.187Z",
+      "lastLoginAt": "2026-10-28T15:18:58.187Z",
+      "dailyStreak": 0
+    },
+    {
+      "email": "test_earner_1793201124146@example.com",
+      "passwordHash": "hash123",
+      "fullName": "Test Earner",
+      "role": "user",
+      "status": "active",
+      "emailVerified": true,
+      "referralCode": "T24146",
+      "id": "usr_0f3f9516",
+      "createdAt": "2026-10-28T15:25:24.146Z",
+      "lastLoginAt": "2026-10-28T15:25:24.146Z",
+      "dailyStreak": 0
+    },
+    {
+      "email": "test_earner_1793201797329@example.com",
+      "passwordHash": "hash123",
+      "fullName": "Test Earner",
+      "role": "user",
+      "status": "active",
+      "emailVerified": true,
+      "referralCode": "T97329",
+      "id": "usr_db64fa53",
+      "createdAt": "2026-10-28T15:36:37.329Z",
+      "lastLoginAt": "2026-10-28T15:36:37.329Z",
+      "dailyStreak": 0
+    }
+  ],
+  "wallets": [
+    {
+      "userId": "usr_admin_001",
+      "availableBalance": 5000,
+      "pendingBalance": 0,
+      "totalEarned": 5000,
+      "totalWithdrawn": 0,
+      "updatedAt": "2026-10-28T15:13:29.352Z"
+    },
+    {
+      "userId": "usr_rahul_002",
+      "availableBalance": 145,
+      "pendingBalance": 50,
+      "totalEarned": 245,
+      "totalWithdrawn": 50,
+      "updatedAt": "2026-10-28T15:36:37.327Z"
+    },
+    {
+      "userId": "usr_7e7668d3",
+      "availableBalance": 20,
+      "pendingBalance": 0,
+      "totalEarned": 20,
+      "totalWithdrawn": 0,
+      "updatedAt": "2026-10-28T15:18:58.189Z"
+    },
+    {
+      "userId": "usr_0f3f9516",
+      "availableBalance": 20,
+      "pendingBalance": 0,
+      "totalEarned": 20,
+      "totalWithdrawn": 0,
+      "updatedAt": "2026-10-28T15:25:24.147Z"
+    },
+    {
+      "userId": "usr_db64fa53",
+      "availableBalance": 20,
+      "pendingBalance": 0,
+      "totalEarned": 20,
+      "totalWithdrawn": 0,
+      "updatedAt": "2026-10-28T15:36:37.330Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_init_001",
+      "userId": "usr_rahul_002",
+      "type": "TASK_REWARD",
+      "amount": 25,
+      "status": "completed",
+      "description": "Earned from Digital Financial Literacy Quiz",
+      "referenceId": "task_quiz_001",
+      "createdAt": "2026-03-01T12:00:00Z"
+    },
+    {
+      "id": "tx_init_002",
+      "userId": "usr_rahul_002",
+      "type": "DAILY_CHECKIN",
+      "amount": 5,
+      "status": "completed",
+      "description": "Day 3 Daily Check-in Streak Reward",
+      "referenceId": "checkin_day_3",
+      "createdAt": "2026-03-02T09:15:00Z"
+    },
+    {
+      "id": "tx_init_003",
+      "userId": "usr_rahul_002",
+      "type": "REFERRAL_BONUS",
+      "amount": 25,
+      "status": "completed",
+      "description": "Referral reward for inviting Priya Patel",
+      "referenceId": "ref_priya_001",
+      "createdAt": "2026-03-05T14:20:00Z"
+    },
+    {
+      "id": "tx_init_004",
+      "userId": "usr_rahul_002",
+      "type": "WITHDRAWAL_REQUEST",
+      "amount": -50,
+      "status": "completed",
+      "description": "Withdrawal to UPI (rahul@okaxis)",
+      "referenceId": "wd_req_demo_01",
+      "createdAt": "2026-03-10T16:00:00Z"
+    },
+    {
+      "id": "tx_cfa6c3eb-7",
+      "userId": "usr_rahul_002",
+      "type": "WITHDRAWAL_REQUEST",
+      "amount": -50,
+      "status": "pending",
+      "description": "Withdrawal request to UPI (rahul@upi)",
+      "referenceId": "wd_eca415be-9",
+      "createdAt": "2026-10-28T15:13:29.515Z"
+    },
+    {
+      "id": "tx_f133d063-8",
+      "userId": "usr_rahul_002",
+      "type": "WITHDRAWAL_REFUND",
+      "amount": 50,
+      "status": "completed",
+      "description": "Refund for rejected withdrawal request (wd_eca415be-9)",
+      "referenceId": "wd_eca415be-9",
+      "createdAt": "2026-10-28T15:13:29.517Z"
+    },
+    {
+      "id": "tx_ddb7da3d-5",
+      "userId": "usr_rahul_002",
+      "type": "TASK_REWARD",
+      "amount": 20,
+      "status": "completed",
+      "description": "Reward for: Digital Banking & UPI Security Quiz",
+      "referenceId": "sub_b4819b43-f",
+      "createdAt": "2026-10-28T15:13:29.519Z"
+    },
+    {
+      "id": "tx_7f20e1dd-e",
+      "userId": "usr_rahul_002",
+      "type": "WITHDRAWAL_REQUEST",
+      "amount": -50,
+      "status": "pending",
+      "description": "Withdrawal request to UPI (rahul@upi)",
+      "referenceId": "wd_c4acce27-8",
+      "createdAt": "2026-10-28T15:18:22.692Z"
+    },
+    {
+      "id": "tx_87a66a74-6",
+      "userId": "usr_rahul_002",
+      "type": "WITHDRAWAL_REFUND",
+      "amount": 50,
+      "status": "completed",
+      "description": "Refund for rejected withdrawal request (wd_c4acce27-8)",
+      "referenceId": "wd_c4acce27-8",
+      "createdAt": "2026-10-28T15:18:22.693Z"
+    },
+    {
+      "id": "tx_10e8dd75-9",
+      "userId": "usr_rahul_002",
+      "type": "WITHDRAWAL_REQUEST",
+      "amount": -50,
+      "status": "pending",
+      "description": "Withdrawal request to UPI (rahul@upi)",
+      "referenceId": "wd_e1072956-c",
+      "createdAt": "2026-10-28T15:18:58.182Z"
+    },
+    {
+      "id": "tx_14500cb0-d",
+      "userId": "usr_rahul_002",
+      "type": "WITHDRAWAL_REFUND",
+      "amount": 50,
+      "status": "completed",
+      "description": "Refund for rejected withdrawal request (wd_e1072956-c)",
+      "referenceId": "wd_e1072956-c",
+      "createdAt": "2026-10-28T15:18:58.185Z"
+    },
+    {
+      "id": "tx_9595945f-4",
+      "userId": "usr_7e7668d3",
+      "type": "TASK_REWARD",
+      "amount": 20,
+      "status": "completed",
+      "description": "Reward for: Digital Banking & UPI Security Quiz",
+      "referenceId": "sub_f07a18d7-3",
+      "createdAt": "2026-10-28T15:18:58.189Z"
+    },
+    {
+      "id": "tx_b6fb2a58-2",
+      "userId": "usr_rahul_002",
+      "type": "WITHDRAWAL_REQUEST",
+      "amount": -50,
+      "status": "pending",
+      "description": "Withdrawal request to UPI (rahul@upi)",
+      "referenceId": "wd_5c6a5f57-0",
+      "createdAt": "2026-10-28T15:25:24.143Z"
+    },
+    {
+      "id": "tx_a03cbaa5-b",
+      "userId": "usr_rahul_002",
+      "type": "WITHDRAWAL_REFUND",
+      "amount": 50,
+      "status": "completed",
+      "description": "Refund for rejected withdrawal request (wd_5c6a5f57-0)",
+      "referenceId": "wd_5c6a5f57-0",
+      "createdAt": "2026-10-28T15:25:24.145Z"
+    },
+    {
+      "id": "tx_ae66c65f-e",
+      "userId": "usr_0f3f9516",
+      "type": "TASK_REWARD",
+      "amount": 20,
+      "status": "completed",
+      "description": "Reward for: Digital Banking & UPI Security Quiz",
+      "referenceId": "sub_8c8da3c7-0",
+      "createdAt": "2026-10-28T15:25:24.147Z"
+    },
+    {
+      "id": "tx_d5f5968c-c",
+      "userId": "usr_rahul_002",
+      "type": "WITHDRAWAL_REQUEST",
+      "amount": -50,
+      "status": "pending",
+      "description": "Withdrawal request to UPI (rahul@upi)",
+      "referenceId": "wd_fd2befbf-3",
+      "createdAt": "2026-10-28T15:36:37.326Z"
+    },
+    {
+      "id": "tx_f19b1a8d-a",
+      "userId": "usr_rahul_002",
+      "type": "WITHDRAWAL_REFUND",
+      "amount": 50,
+      "status": "completed",
+      "description": "Refund for rejected withdrawal request (wd_fd2befbf-3)",
+      "referenceId": "wd_fd2befbf-3",
+      "createdAt": "2026-10-28T15:36:37.327Z"
+    },
+    {
+      "id": "tx_542ce1cc-d",
+      "userId": "usr_db64fa53",
+      "type": "TASK_REWARD",
+      "amount": 20,
+      "status": "completed",
+      "description": "Reward for: Digital Banking & UPI Security Quiz",
+      "referenceId": "sub_896d4040-c",
+      "createdAt": "2026-10-28T15:36:37.330Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_quiz_fin_01",
+      "title": "Digital Banking & UPI Security Quiz",
+      "description": "Test your understanding of safe UPI transactions, RBI consumer safeguards, and phishing avoidance. Score 75% or higher to earn instant reward.",
+      "category": "quiz",
+      "rewardAmount": 20,
+      "instructions": [
+        "Read each question carefully.",
+        "Choose the correct answer from 4 options.",
+        "Score at least 3 out of 4 questions correctly.",
+        "Reward is credited to your wallet immediately upon passing."
+      ],
+      "requirements": "Requires minimum 75% score. Verified automatically by server.",
+      "dailyLimit": 1,
+      "active": true,
+      "verificationType": "auto_quiz",
+      "estimatedMinutes": 3,
+      "totalCompletions": 346,
+      "createdAt": "2026-01-15T00:00:00Z",
+      "quizQuestions": [
+        {
+          "id": "q1",
+          "question": "When receiving money via UPI into your bank account, do you need to enter your UPI PIN?",
+          "options": [
+            "Yes, always enter your UPI PIN to claim funds",
+            "No, UPI PIN is ONLY entered to deduct/send money from your account",
+            "Only if the amount is greater than ₹2,000",
+            "Yes, once per week"
+          ],
+          "correctIndex": 1,
+          "explanation": "UPI PIN is strictly your secret authorization to DEBIT money. You NEVER need a PIN to receive payments."
+        },
+        {
+          "id": "q2",
+          "question": "What is the official RBI consumer redressal helpline and portal for online banking disputes?",
+          "options": [
+            "1930 / cybercrime.gov.in and RBI CMS (cms.rbi.org.in)",
+            "There is no government helpline for UPI",
+            "Twitter/X direct messages only",
+            "Local post office counter"
+          ],
+          "correctIndex": 0,
+          "explanation": "National Cyber Crime Reporting Portal (1930) and RBI Complaint Management System (CMS) handle digital transaction fraud."
+        },
+        {
+          "id": "q3",
+          "question": "An unknown caller claiming to be your bank asks for an OTP sent to your phone to \"verify your KYC\". What should you do?",
+          "options": [
+            "Share the OTP immediately so your account is not blocked",
+            "Give only the first 3 digits",
+            "Never share OTP or passwords with anyone; legitimate banks never ask for OTPs",
+            "Ask them to send ₹1 first"
+          ],
+          "correctIndex": 2,
+          "explanation": "Banks and financial entities never ask customers for OTPs, CVV, or passwords under any circumstances."
+        },
+        {
+          "id": "q4",
+          "question": "What does \"2FA\" stand for in financial account security?",
+          "options": [
+            "Two-Factor Authentication",
+            "Twice Funded Account",
+            "Total Financial Audit",
+            "Telegram Financial Agent"
+          ],
+          "correctIndex": 0,
+          "explanation": "Two-Factor Authentication (2FA) adds a vital second verification layer beyond just a password."
+        }
+      ]
+    },
+    {
+      "id": "task_quiz_cyber_02",
+      "title": "Cybersecurity & Device Hygiene Challenge",
+      "description": "Verify your awareness on malware protection, secure app downloads, and password hygiene.",
+      "category": "quiz",
+      "rewardAmount": 15,
+      "instructions": [
+        "Answer 3 high-importance questions.",
+        "Learn vital digital protection best practices.",
+        "Instant automatic evaluation."
+      ],
+      "requirements": "Score 100% (3/3) to earn reward. Free retries after 2 hours.",
+      "dailyLimit": 1,
+      "active": true,
+      "verificationType": "auto_quiz",
+      "estimatedMinutes": 2,
+      "totalCompletions": 218,
+      "createdAt": "2026-02-01T00:00:00Z",
+      "quizQuestions": [
+        {
+          "id": "qc1",
+          "question": "Where should Android users safely install trusted banking and earning apps from?",
+          "options": [
+            "Random APK download links from WhatsApp groups or Telegram",
+            "Official Google Play Store or manufacturer verified app stores",
+            "Pop-up ads on file streaming websites",
+            "Unknown SMS shortlinks"
+          ],
+          "correctIndex": 1,
+          "explanation": "Side-loading APKs from unverified third-party links exposes your phone to keyloggers and SMS stealing malware."
+        },
+        {
+          "id": "qc2",
+          "question": "Which of the following is considered a strong, secure password?",
+          "options": [
+            "Password1234",
+            "Rahul@1998",
+            "Tr8#mQ9!kL$2wZ (Unique, 14+ characters, mixed symbols and cases)",
+            "12345678"
+          ],
+          "correctIndex": 2,
+          "explanation": "Strong passwords avoid personal names or birth years and combine length with unpredictability."
+        },
+        {
+          "id": "qc3",
+          "question": "When using public Wi-Fi at a railway station or cafe, what is the best practice for financial transactions?",
+          "options": [
+            "Use mobile 4G/5G data or a trusted encrypted VPN instead of unprotected open networks",
+            "Leave Bluetooth and file sharing open to all",
+            "Disable phone lock screen",
+            "Share banking passwords with nearby users"
+          ],
+          "correctIndex": 0,
+          "explanation": "Unencrypted public hotspots can allow bad actors on the same network to intercept unencrypted traffic."
+        }
+      ]
+    },
+    {
+      "id": "task_survey_consumer_01",
+      "title": "Digital Payments & Fintech Survey 2026",
+      "description": "Share your genuine consumer preferences about payment apps, cashback programs, and UPI Lite usage to help Indian fintech researchers.",
+      "category": "survey",
+      "rewardAmount": 25,
+      "instructions": [
+        "Answer 4 survey questions sincerely.",
+        "Share your real user experience.",
+        "Server verifies thoroughness and credits your wallet upon completion."
+      ],
+      "requirements": "All questions mandatory. Validated on submission.",
+      "dailyLimit": 1,
+      "active": true,
+      "verificationType": "auto_survey",
+      "estimatedMinutes": 4,
+      "totalCompletions": 512,
+      "createdAt": "2026-01-20T00:00:00Z",
+      "surveyFields": [
+        {
+          "id": "s1",
+          "question": "Which UPI payment method or app do you use most frequently for everyday store purchases?",
+          "type": "radio",
+          "options": [
+            "Google Pay",
+            "PhonePe",
+            "Paytm",
+            "BHIM UPI",
+            "Cred",
+            "Other"
+          ]
+        },
+        {
+          "id": "s2",
+          "question": "How often do you use UPI Lite for small offline transactions under ₹500 without PIN?",
+          "type": "radio",
+          "options": [
+            "Daily",
+            "Several times a week",
+            "Rarely",
+            "Never heard of UPI Lite"
+          ]
+        },
+        {
+          "id": "s3",
+          "question": "What is the most important factor when choosing an earning or micro-task application?",
+          "type": "radio",
+          "options": [
+            "Instant UPI payouts",
+            "High paying tasks",
+            "Easy-to-use interface",
+            "Legitimate security & transparency"
+          ]
+        },
+        {
+          "id": "s4",
+          "question": "Briefly describe one feature you wish banking apps in India improved for rural or tier-2 users:",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "task_apptest_fintrack_01",
+      "title": "App Testing: \"FinTrack India\" Expense Tracker",
+      "description": "Test the beta release of FinTrack India. Navigate through the expense logging screen, check the offline mode, and provide a 2-sentence user experience review.",
+      "category": "app_test",
+      "rewardAmount": 35,
+      "instructions": [
+        "Click the official testing portal link.",
+        "Explore the app for at least 2-3 minutes.",
+        "Note down how smooth the category selection and budget graphs are.",
+        "Submit your tester feedback with device model and observations.",
+        "Admin reviews and approves your submission within 24 hours."
+      ],
+      "requirements": "Requires meaningful tester feedback with Android OS version & device model.",
+      "dailyLimit": 1,
+      "active": true,
+      "verificationType": "manual_review",
+      "externalUrl": "https://example.com/fintrack-beta-preview",
+      "estimatedMinutes": 5,
+      "totalCompletions": 89,
+      "createdAt": "2026-02-10T00:00:00Z"
+    },
+    {
+      "id": "task_sponsored_ev_01",
+      "title": "Brand Feedback: Clean Energy & Electric Two-Wheelers",
+      "description": "Provide feedback for a national green mobility initiative on two-wheeler charging availability and commute distances in your city.",
+      "category": "sponsored",
+      "rewardAmount": 30,
+      "instructions": [
+        "Review the mobility inquiry brief.",
+        "Share your daily commute distance and opinion on EV battery swapping stations.",
+        "Submit thoughtful feedback.",
+        "Submissions are validated for depth and rewarded accordingly."
+      ],
+      "requirements": "Constructive feedback (minimum 20 words).",
+      "dailyLimit": 1,
+      "active": true,
+      "verificationType": "manual_review",
+      "estimatedMinutes": 3,
+      "totalCompletions": 144,
+      "createdAt": "2026-02-25T00:00:00Z"
+    },
+    {
+      "id": "task_promo_follow_01",
+      "title": "Official Channel Announcements & Alerts",
+      "description": "Join the verified EarnPro Official WhatsApp/Telegram alerts feed to get notified immediately when high-payout sponsor tasks drop.",
+      "category": "promo",
+      "rewardAmount": 10,
+      "instructions": [
+        "Open the official channel link.",
+        "Subscribe or follow the verified broadcast.",
+        "Enter your handle or username to confirm verification.",
+        "Processed automatically."
+      ],
+      "requirements": "One-time bonus per user.",
+      "dailyLimit": 1,
+      "active": true,
+      "verificationType": "manual_review",
+      "externalUrl": "https://t.me/earnpro_alerts",
+      "estimatedMinutes": 1,
+      "totalCompletions": 680,
+      "createdAt": "2026-01-10T00:00:00Z"
+    }
+  ],
+  "taskSubmissions": [
+    {
+      "id": "sub_001",
+      "taskId": "task_apptest_fintrack_01",
+      "userId": "usr_rahul_002",
+      "userName": "Rahul Sharma",
+      "userEmail": "rahul.sharma@example.com",
+      "taskTitle": "App Testing: \"FinTrack India\" Expense Tracker",
+      "category": "app_test",
+      "rewardAmount": 35,
+      "status": "under_review",
+      "proofData": {
+        "appReviewText": "Tested on OnePlus 11 (Android 14). The offline sync works smoothly, but category pie chart takes ~2 seconds to render on cold start.",
+        "submittedNotes": "Included device model as instructed."
+      },
+      "createdAt": "2026-10-28T10:13:29.352Z"
+    },
+    {
+      "id": "sub_b4819b43-f",
+      "taskId": "task_quiz_fin_01",
+      "userId": "usr_rahul_002",
+      "userEmail": "rahul.sharma@example.com",
+      "userName": "Rahul Sharma",
+      "taskTitle": "Digital Banking & UPI Security Quiz",
+      "category": "quiz",
+      "rewardAmount": 20,
+      "status": "approved",
+      "proofData": {
+        "quizAnswers": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "score": 4,
+        "totalQuestions": 4
+      },
+      "createdAt": "2026-10-28T15:13:29.519Z",
+      "reviewedAt": "2026-10-28T15:13:29.519Z",
+      "reviewedBy": "SYSTEM_AUTO_VERIFIER"
+    },
+    {
+      "id": "sub_f07a18d7-3",
+      "taskId": "task_quiz_fin_01",
+      "userId": "usr_7e7668d3",
+      "userEmail": "test_earner_1793200738187@example.com",
+      "userName": "Test Earner",
+      "taskTitle": "Digital Banking & UPI Security Quiz",
+      "category": "quiz",
+      "rewardAmount": 20,
+      "status": "approved",
+      "proofData": {
+        "quizAnswers": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "score": 4,
+        "totalQuestions": 4
+      },
+      "createdAt": "2026-10-28T15:18:58.189Z",
+      "reviewedAt": "2026-10-28T15:18:58.189Z",
+      "reviewedBy": "SYSTEM_AUTO_VERIFIER"
+    },
+    {
+      "id": "sub_8c8da3c7-0",
+      "taskId": "task_quiz_fin_01",
+      "userId": "usr_0f3f9516",
+      "userEmail": "test_earner_1793201124146@example.com",
+      "userName": "Test Earner",
+      "taskTitle": "Digital Banking & UPI Security Quiz",
+      "category": "quiz",
+      "rewardAmount": 20,
+      "status": "approved",
+      "proofData": {
+        "quizAnswers": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "score": 4,
+        "totalQuestions": 4
+      },
+      "createdAt": "2026-10-28T15:25:24.147Z",
+      "reviewedAt": "2026-10-28T15:25:24.147Z",
+      "reviewedBy": "SYSTEM_AUTO_VERIFIER"
+    },
+    {
+      "id": "sub_896d4040-c",
+      "taskId": "task_quiz_fin_01",
+      "userId": "usr_db64fa53",
+      "userEmail": "test_earner_1793201797329@example.com",
+      "userName": "Test Earner",
+      "taskTitle": "Digital Banking & UPI Security Quiz",
+      "category": "quiz",
+      "rewardAmount": 20,
+      "status": "approved",
+      "proofData": {
+        "quizAnswers": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "score": 4,
+        "totalQuestions": 4
+      },
+      "createdAt": "2026-10-28T15:36:37.330Z",
+      "reviewedAt": "2026-10-28T15:36:37.330Z",
+      "reviewedBy": "SYSTEM_AUTO_VERIFIER"
+    }
+  ],
+  "referrals": [
+    {
+      "id": "ref_001",
+      "referrerId": "usr_rahul_002",
+      "referredUserId": "usr_priya_003",
+      "referredUserName": "Priya Patel",
+      "referredUserEmail": "priya.patel@example.com",
+      "status": "rewarded",
+      "rewardAmount": 25,
+      "qualifiedAt": "2026-03-05T14:15:00Z",
+      "rewardedAt": "2026-03-05T14:20:00Z",
+      "createdAt": "2026-03-04T11:00:00Z"
+    }
+  ],
+  "withdrawals": [
+    {
+      "id": "wd_req_demo_01",
+      "userId": "usr_rahul_002",
+      "userName": "Rahul Sharma",
+      "userEmail": "rahul.sharma@example.com",
+      "method": "upi",
+      "amount": 50,
+      "fee": 0,
+      "netAmount": 50,
+      "details": {
+        "upiId": "rahul@okaxis",
+        "accountHolder": "Rahul Sharma"
+      },
+      "status": "paid",
+      "adminNote": "Processed via IMPS/UPI gateway",
+      "transactionRef": "UPI-RR2026031088491",
+      "requestedAt": "2026-03-10T16:00:00Z",
+      "processedAt": "2026-03-10T16:45:00Z"
+    },
+    {
+      "id": "wd_eca415be-9",
+      "userId": "usr_rahul_002",
+      "userName": "Rahul Sharma",
+      "userEmail": "rahul.sharma@example.com",
+      "method": "upi",
+      "amount": 50,
+      "fee": 0,
+      "netAmount": 50,
+      "details": {
+        "upiId": "rahul@upi"
+      },
+      "status": "rejected",
+      "requestedAt": "2026-10-28T15:13:29.515Z",
+      "adminNote": "Invalid UPI ID test",
+      "processedAt": "2026-10-28T15:13:29.517Z"
+    },
+    {
+      "id": "wd_c4acce27-8",
+      "userId": "usr_rahul_002",
+      "userName": "Rahul Sharma",
+      "userEmail": "rahul.sharma@example.com",
+      "method": "upi",
+      "amount": 50,
+      "fee": 0,
+      "netAmount": 50,
+      "details": {
+        "upiId": "rahul@upi"
+      },
+      "status": "rejected",
+      "requestedAt": "2026-10-28T15:18:22.692Z",
+      "adminNote": "Invalid UPI ID test",
+      "processedAt": "2026-10-28T15:18:22.693Z"
+    },
+    {
+      "id": "wd_e1072956-c",
+      "userId": "usr_rahul_002",
+      "userName": "Rahul Sharma",
+      "userEmail": "rahul.sharma@example.com",
+      "method": "upi",
+      "amount": 50,
+      "fee": 0,
+      "netAmount": 50,
+      "details": {
+        "upiId": "rahul@upi"
+      },
+      "status": "rejected",
+      "requestedAt": "2026-10-28T15:18:58.182Z",
+      "adminNote": "Invalid UPI ID test",
+      "processedAt": "2026-10-28T15:18:58.185Z"
+    },
+    {
+      "id": "wd_5c6a5f57-0",
+      "userId": "usr_rahul_002",
+      "userName": "Rahul Sharma",
+      "userEmail": "rahul.sharma@example.com",
+      "method": "upi",
+      "amount": 50,
+      "fee": 0,
+      "netAmount": 50,
+      "details": {
+        "upiId": "rahul@upi"
+      },
+      "status": "rejected",
+      "requestedAt": "2026-10-28T15:25:24.143Z",
+      "adminNote": "Invalid UPI ID test",
+      "processedAt": "2026-10-28T15:25:24.145Z"
+    },
+    {
+      "id": "wd_fd2befbf-3",
+      "userId": "usr_rahul_002",
+      "userName": "Rahul Sharma",
+      "userEmail": "rahul.sharma@example.com",
+      "method": "upi",
+      "amount": 50,
+      "fee": 0,
+      "netAmount": 50,
+      "details": {
+        "upiId": "rahul@upi"
+      },
+      "status": "rejected",
+      "requestedAt": "2026-10-28T15:36:37.326Z",
+      "adminNote": "Invalid UPI ID test",
+      "processedAt": "2026-10-28T15:36:37.327Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_001",
+      "userId": "all",
+      "title": "EarnPro V2.5 Live with Instant UPI!",
+      "message": "Welcome to EarnPro! Complete your daily check-in streak and educational quizzes for instant wallet rewards.",
+      "type": "system",
+      "read": false,
+      "createdAt": "2026-03-01T00:00:00Z"
+    },
+    {
+      "id": "notif_002",
+      "userId": "usr_rahul_002",
+      "title": "₹50 Withdrawal Completed Successfully",
+      "message": "Your UPI payout of ₹50 has been credited to rahul@okaxis (Ref: UPI-RR2026031088491).",
+      "type": "withdrawal",
+      "read": true,
+      "createdAt": "2026-03-10T16:45:00Z"
+    },
+    {
+      "userId": "usr_rahul_002",
+      "title": "Withdrawal Request Submitted",
+      "message": "Your request for ₹50 via UPI is under review. Funds are safely reserved.",
+      "type": "withdrawal",
+      "id": "notif_717988ff",
+      "read": false,
+      "createdAt": "2026-10-28T15:13:29.516Z"
+    },
+    {
+      "userId": "usr_rahul_002",
+      "title": "Withdrawal Refunded ↩️",
+      "message": "Your withdrawal request of ₹50 was not processed. 50 has been refunded to your wallet. Reason: Invalid UPI ID test",
+      "type": "withdrawal",
+      "id": "notif_54e2bc4e",
+      "read": false,
+      "createdAt": "2026-10-28T15:13:29.517Z"
+    },
+    {
+      "userId": "usr_rahul_002",
+      "title": "Task Reward Credited! 🎯",
+      "message": "₹20 credited for completing \"Digital Banking & UPI Security Quiz\".",
+      "type": "task",
+      "id": "notif_e35485c1",
+      "read": false,
+      "createdAt": "2026-10-28T15:13:29.519Z"
+    },
+    {
+      "userId": "usr_rahul_002",
+      "title": "Withdrawal Request Submitted",
+      "message": "Your request for ₹50 via UPI is under review. Funds are safely reserved.",
+      "type": "withdrawal",
+      "id": "notif_fca3bc19",
+      "read": false,
+      "createdAt": "2026-10-28T15:18:22.692Z"
+    },
+    {
+      "userId": "usr_rahul_002",
+      "title": "Withdrawal Refunded ↩️",
+      "message": "Your withdrawal request of ₹50 was not processed. 50 has been refunded to your wallet. Reason: Invalid UPI ID test",
+      "type": "withdrawal",
+      "id": "notif_b5d3ce47",
+      "read": false,
+      "createdAt": "2026-10-28T15:18:22.693Z"
+    },
+    {
+      "userId": "usr_rahul_002",
+      "title": "Withdrawal Request Submitted",
+      "message": "Your request for ₹50 via UPI is under review. Funds are safely reserved.",
+      "type": "withdrawal",
+      "id": "notif_1527ee11",
+      "read": false,
+      "createdAt": "2026-10-28T15:18:58.183Z"
+    },
+    {
+      "userId": "usr_rahul_002",
+      "title": "Withdrawal Refunded ↩️",
+      "message": "Your withdrawal request of ₹50 was not processed. 50 has been refunded to your wallet. Reason: Invalid UPI ID test",
+      "type": "withdrawal",
+      "id": "notif_2fd7ce40",
+      "read": false,
+      "createdAt": "2026-10-28T15:18:58.185Z"
+    },
+    {
+      "userId": "usr_7e7668d3",
+      "title": "Welcome to EarnPro!",
+      "message": "Explore daily quizzes, verified surveys, and claim your Day 1 streak check-in reward now.",
+      "type": "system",
+      "id": "notif_364fa352",
+      "read": false,
+      "createdAt": "2026-10-28T15:18:58.188Z"
+    },
+    {
+      "userId": "usr_7e7668d3",
+      "title": "Task Reward Credited! 🎯",
+      "message": "₹20 credited for completing \"Digital Banking & UPI Security Quiz\".",
+      "type": "task",
+      "id": "notif_3a0b7633",
+      "read": false,
+      "createdAt": "2026-10-28T15:18:58.190Z"
+    },
+    {
+      "userId": "usr_rahul_002",
+      "title": "Withdrawal Request Submitted",
+      "message": "Your request for ₹50 via UPI is under review. Funds are safely reserved.",
+      "type": "withdrawal",
+      "id": "notif_626c2b44",
+      "read": false,
+      "createdAt": "2026-10-28T15:25:24.143Z"
+    },
+    {
+      "userId": "usr_rahul_002",
+      "title": "Withdrawal Refunded ↩️",
+      "message": "Your withdrawal request of ₹50 was not processed. 50 has been refunded to your wallet. Reason: Invalid UPI ID test",
+      "type": "withdrawal",
+      "id": "notif_6d3b7d3a",
+      "read": false,
+      "createdAt": "2026-10-28T15:25:24.145Z"
+    },
+    {
+      "userId": "usr_0f3f9516",
+      "title": "Welcome to EarnPro!",
+      "message": "Explore daily quizzes, verified surveys, and claim your Day 1 streak check-in reward now.",
+      "type": "system",
+      "id": "notif_2985d842",
+      "read": false,
+      "createdAt": "2026-10-28T15:25:24.146Z"
+    },
+    {
+      "userId": "usr_0f3f9516",
+      "title": "Task Reward Credited! 🎯",
+      "message": "₹20 credited for completing \"Digital Banking & UPI Security Quiz\".",
+      "type": "task",
+      "id": "notif_084a5525",
+      "read": false,
+      "createdAt": "2026-10-28T15:25:24.150Z"
+    },
+    {
+      "userId": "usr_rahul_002",
+      "title": "Withdrawal Request Submitted",
+      "message": "Your request for ₹50 via UPI is under review. Funds are safely reserved.",
+      "type": "withdrawal",
+      "id": "notif_705e066c",
+      "read": false,
+      "createdAt": "2026-10-28T15:36:37.326Z"
+    },
+    {
+      "userId": "usr_rahul_002",
+      "title": "Withdrawal Refunded ↩️",
+      "message": "Your withdrawal request of ₹50 was not processed. 50 has been refunded to your wallet. Reason: Invalid UPI ID test",
+      "type": "withdrawal",
+      "id": "notif_59b3e267",
+      "read": false,
+      "createdAt": "2026-10-28T15:36:37.327Z"
+    },
+    {
+      "userId": "usr_db64fa53",
+      "title": "Welcome to EarnPro!",
+      "message": "Explore daily quizzes, verified surveys, and claim your Day 1 streak check-in reward now.",
+      "type": "system",
+      "id": "notif_bc357a7a",
+      "read": false,
+      "createdAt": "2026-10-28T15:36:37.329Z"
+    },
+    {
+      "userId": "usr_db64fa53",
+      "title": "Task Reward Credited! 🎯",
+      "message": "₹20 credited for completing \"Digital Banking & UPI Security Quiz\".",
+      "type": "task",
+      "id": "notif_ca6a3f50",
+      "read": false,
+      "createdAt": "2026-10-28T15:36:37.331Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log_001",
+      "adminId": "usr_admin_001",
+      "adminEmail": "admin@earnpro.in",
+      "action": "APPROVE_WITHDRAWAL",
+      "targetType": "WITHDRAWAL",
+      "targetId": "wd_req_demo_01",
+      "details": "Approved ₹50 UPI withdrawal to rahul@okaxis. Ref: UPI-RR2026031088491",
+      "timestamp": "2026-03-10T16:45:00Z"
+    },
+    {
+      "id": "log_bdf02b0d",
+      "adminId": "usr_admin_001",
+      "adminEmail": "admin@earnpro.in",
+      "action": "REJECT_WITHDRAWAL",
+      "targetType": "WITHDRAWAL",
+      "targetId": "wd_eca415be-9",
+      "details": "Action: reject, Amount: ₹50, UTR: N/A, Notes: Invalid UPI ID test",
+      "timestamp": "2026-10-28T15:13:29.518Z"
+    },
+    {
+      "id": "log_8e770e57",
+      "adminId": "usr_admin_001",
+      "adminEmail": "admin@earnpro.in",
+      "action": "REJECT_WITHDRAWAL",
+      "targetType": "WITHDRAWAL",
+      "targetId": "wd_c4acce27-8",
+      "details": "Action: reject, Amount: ₹50, UTR: N/A, Notes: Invalid UPI ID test",
+      "timestamp": "2026-10-28T15:18:22.694Z"
+    },
+    {
+      "id": "log_4f4f5d55",
+      "adminId": "usr_admin_001",
+      "adminEmail": "admin@earnpro.in",
+      "action": "REJECT_WITHDRAWAL",
+      "targetType": "WITHDRAWAL",
+      "targetId": "wd_e1072956-c",
+      "details": "Action: reject, Amount: ₹50, UTR: N/A, Notes: Invalid UPI ID test",
+      "timestamp": "2026-10-28T15:18:58.186Z"
+    },
+    {
+      "id": "log_5f3dec54",
+      "adminId": "usr_admin_001",
+      "adminEmail": "admin@earnpro.in",
+      "action": "REJECT_WITHDRAWAL",
+      "targetType": "WITHDRAWAL",
+      "targetId": "wd_5c6a5f57-0",
+      "details": "Action: reject, Amount: ₹50, UTR: N/A, Notes: Invalid UPI ID test",
+      "timestamp": "2026-10-28T15:25:24.145Z"
+    },
+    {
+      "id": "log_70f43239",
+      "adminId": "usr_admin_001",
+      "adminEmail": "admin@earnpro.in",
+      "action": "REJECT_WITHDRAWAL",
+      "targetType": "WITHDRAWAL",
+      "targetId": "wd_fd2befbf-3",
+      "details": "Action: reject, Amount: ₹50, UTR: N/A, Notes: Invalid UPI ID test",
+      "timestamp": "2026-10-28T15:36:37.328Z"
+    }
+  ],
+  "settings": {
+    "minWithdrawal": 50,
+    "maxWithdrawal": 10000,
+    "referralBonus": 25,
+    "requiredTasksForReferral": 1,
+    "dailyCheckinRewards": [
+      2,
+      3,
+      5,
+      7,
+      10,
+      12,
+      15
+    ],
+    "maintenanceMode": false,
+    "appNotice": "Welcome to EarnPro! Complete your daily check-in and educational quizzes to earn instant wallet credits."
+  }
+}

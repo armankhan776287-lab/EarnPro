@@ -1,0 +1,6 @@
+{
+  "name": "EarnPro - Smart Micro-Earning Platform",
+  "description": "Mobile-first reward and micro-task platform with secure wallet, UPI withdrawals, educational quizzes, daily rewards, and admin management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
